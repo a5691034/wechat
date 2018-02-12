@@ -1,0 +1,34 @@
+/* pages/check/add/chose/chose.wxss */
+#list {
+  width: 100%;
+  border: 0px solid #ccc;
+  margin: 0 auto;
+}
+
+#list .lis {
+}
+
+#list .title {
+  height: 30px;
+  line-height: 30px;
+  text-indent: 20px; /*文字缩进20px*/
+  background: url(https://www.easyicon.net/api/resizeApi.php?id=1189854&size=32) no-repeat 5px center pink; /*前面小箭头*/
+  background-size:11px 19px;
+  cursor: pointer;
+}
+
+#list .active {
+  /* 点击时添加的类名 */
+  background: url(https://www.easyicon.net/api/resizeApi.php?id=1189852&size=32) no-repeat 5px center #ff9;
+  background-size:19px 11px;
+  text-indent: 26px; /*文字缩进20px*/
+}
+
+ #list ul {display: none;} 
+
+#list .li {
+  display: block;
+  line-height: 24px;
+  border-bottom: 2px solid #fc4;
+  text-indent: 24px; /*文字缩进24px*/
+}
